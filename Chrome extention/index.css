@@ -21,17 +21,21 @@ button {
     font-weight: bold;
     font-size: 11px;
     margin-bottom: 10px;
-    overflow-wrap: break-word;
+    display: flex;
+    flex:wrap;
+    border-radius: 8px;
 }
 
 #delete-btn {
     background: white;
     color: #5f9341;
+    flex-grow: 1;
 }
 
 #delete-btn-top {
     background: white;
     color: #5f9341;
+    flex-grow: 1;
 }
 
 ul {
